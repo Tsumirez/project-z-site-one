@@ -1,14 +1,33 @@
 * {
     margin: 0;
     padding: 0;
-    border:0px none;
+    border: 0px none;
     box-sizing: border-box;
 }
 
 body {
     background: #000;
+    max-width: 1920px;
+    color: #fff;
 }
 
-main {
-    
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 3vw;
 }
+
+header img {
+    max-height: 93px;
+}
+
+header nav a {
+    color: #fff;
+    font: 500 1.1rem "neue-haas-grotesk-display", sans-serif;
+    letter-spacing: .03em;
+    text-decoration: none;
+    line-height: 1.6em;
+    font-size: 1.1rem;
+}
+
+main {}
