@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 18px;
+}
+
 body {
     background: #000;
     max-width: 1920px;
@@ -14,6 +18,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1vw 3vw;
 }
 
@@ -21,13 +26,32 @@ header img {
     max-height: 93px;
 }
 
+header nav {
+    width: 34%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 header nav a {
     color: #fff;
+    margin: 0.1rem 1rem;
     font: 500 1.1rem "neue-haas-grotesk-display", sans-serif;
-    letter-spacing: .03em;
+    /* letter-spacing: .03em; */
     text-decoration: none;
-    line-height: 1.6em;
+    line-height: 1.65rem;
     font-size: 1.1rem;
+}
+
+#social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#social-links a {
+    height: 1.67rem;
+    width: 1.67rem;
 }
 
 main {}
